@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Adams-MacBook-Pro-2.local" name="cs200fall2016team4.JUnitTesting.deleteMemberTest" skipped="0" tests="2" time="0.05" timestamp="2016-11-28T20:34:52">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="env.XPC_SERVICE_NAME" value="com.apple.xpc.launchd.oneshot.0x10000002.eclipse" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.SECURITYSESSIONID" value="186a6" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/classes" />
+    <property name="env.TMPDIR" value="/var/folders/dv/jbl5htrx6kz61y42l8c793g00000gn/T/" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/Users/adamalred/Downloads/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.9.6.v201510161327" />
+    <property name="java.runtime.version" value="1.8.0_31-b13" />
+    <property name="env.Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.65pBQGkqG3/Render" />
+    <property name="user.name" value="adamalred" />
+    <property name="env.USER" value="adamalred" />
+    <property name="env.SHELL" value="/bin/bash" />
+    <property name="ant.file.type.cs200fall2016team4" value="file" />
+    <property name="env.__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0" />
+    <property name="env.PATH" value="/usr/bin:/bin:/usr/sbin:/sbin" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="env.XPC_FLAGS" value="0x0" />
+    <property name="ant.project.name" value="cs200fall2016team4" />
+    <property name="java.version" value="1.8.0_31" />
+    <property name="user.timezone" value="America/Chicago" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_385" value="1" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.LOGNAME" value="adamalred" />
+    <property name="ant.file" value="/Users/adamalred/git/cs200fall2016team4/chocAnMainBuild.xml" />
+    <property name="os.version" value="10.12.1" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="25.31-b07" />
+    <property name="ant.library.dir" value="/Users/adamalred/Downloads/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.9.6.v201510161327/lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="user.home" value="/Users/adamalred" />
+    <property name="target" value="1.8" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="/Users/adamalred/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="gopherProxySet" value="false" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner cs200fall2016team4.JUnitTesting.deleteMemberTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/adamalred/git/cs200fall2016team4/junit/TEST-cs200fall2016team4.JUnitTesting.deleteMemberTest.xml crashfile=/Users/adamalred/git/cs200fall2016team4/junitvmwatcher4355488810734996514.properties propsfile=/Users/adamalred/git/cs200fall2016team4/junit6196120421875786010.properties" />
+    <property name="java.class.path" value="/Users/adamalred/git/cs200fall2016team4/bin:/Users/adamalred/Downloads/Eclipse.app/Contents/Eclipse/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/adamalred/Downloads/Eclipse.app/Contents/Eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/Users/adamalred/Downloads/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-launcher.jar:/Users/adamalred/Downloads/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant.jar:/Users/adamalred/Downloads/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-junit.jar:/Users/adamalred/Downloads/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+    <property name="env.JAVA_MAIN_CLASS_1009" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.HOME" value="/Users/adamalred" />
+    <property name="env.ANT_HOME" value="/Users/adamalred/Downloads/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.9.6.v201510161327" />
+    <property name="java.io.tmpdir" value="/var/folders/dv/jbl5htrx6kz61y42l8c793g00000gn/T/" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.Uqs3yun1CE/Listeners" />
+    <property name="env.COMMAND_MODE" value="unix2003" />
+    <property name="env.APP_ICON_385" value="../Resources/Eclipse.icns" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.ext.dirs" value="/Users/adamalred/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="user.dir" value="/Users/adamalred/git/cs200fall2016team4" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="/Users/adamalred/git/cs200fall2016team4" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="/Users/adamalred/Downloads/Eclipse.app/Contents/Eclipse/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant.jar" />
+    <property name="source" value="1.8" />
+    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_1009" value="1" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="ant.file.cs200fall2016team4" value="/Users/adamalred/git/cs200fall2016team4/chocAnMainBuild.xml" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="deleteMemberTest" />
+  </properties>
+  <testcase classname="cs200fall2016team4.JUnitTesting.deleteMemberTest" name="testFailure" time="0.007" />
+  <testcase classname="cs200fall2016team4.JUnitTesting.deleteMemberTest" name="testSuccess" time="0.0" />
+  <system-out><![CDATA[Unable to open file './DataCenter/memberlist.txt'
+[H[2JDelete Member
+------------
+
+[H[2JDelete Member Failed!
+
+Unable to open file './DataCenter/memberlist.txt'
+[H[2JDelete Member
+------------
+
+Deleting Member: Billy Bob
+
+[H[2JDeleted Member Successfully
+]]></system-out>
+  <system-err><![CDATA[Member not found for ID: 123456780
+]]></system-err>
+</testsuite>
