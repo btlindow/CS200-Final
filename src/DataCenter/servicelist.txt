@@ -1,0 +1,5 @@
+Diet Counseling,598470,1100.00
+Aerobic Exercise,883948,455.50
+Emotional Counseling,123123,902.99
+Body Massage,321321,3.99
+Stomach Pump,111111,45.95
